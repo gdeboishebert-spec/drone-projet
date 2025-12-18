@@ -1,0 +1,13 @@
+#!/bin/bash
+mv "/Users/gasparddeboishebert/.gemini/antigravity/brain/32a65b82-5f2e-45b1-8a60-794bcfdcd971/mariage_drone_cliff_1765623098322.png" "./src/assets/mariage_cliff.png"
+mv "/Users/gasparddeboishebert/.gemini/antigravity/brain/32a65b82-5f2e-45b1-8a60-794bcfdcd971/mariage_drone_chateau_1765623112473.png" "./src/assets/mariage_chateau.png"
+mv "/Users/gasparddeboishebert/.gemini/antigravity/brain/32a65b82-5f2e-45b1-8a60-794bcfdcd971/mariage_drone_beach_1765623128770.png" "./src/assets/mariage_beach.png"
+mv "/Users/gasparddeboishebert/.gemini/antigravity/brain/32a65b82-5f2e-45b1-8a60-794bcfdcd971/event_drone_party_1765623155295.png" "./src/assets/event_party.png"
+mv "/Users/gasparddeboishebert/.gemini/antigravity/brain/32a65b82-5f2e-45b1-8a60-794bcfdcd971/event_drone_festival_1765623169830.png" "./src/assets/event_festival.png"
+mv "/Users/gasparddeboishebert/.gemini/antigravity/brain/32a65b82-5f2e-45b1-8a60-794bcfdcd971/event_drone_corporate_1765623188473.png" "./src/assets/event_corporate.png"
+mv "/Users/gasparddeboishebert/.gemini/antigravity/brain/32a65b82-5f2e-45b1-8a60-794bcfdcd971/immobilier_drone_house1_1765623212740.png" "./src/assets/immobilier_house.png"
+mv "/Users/gasparddeboishebert/.gemini/antigravity/brain/32a65b82-5f2e-45b1-8a60-794bcfdcd971/immobilier_drone_manor_1765623229158.png" "./src/assets/immobilier_manor.png"
+mv "/Users/gasparddeboishebert/.gemini/antigravity/brain/32a65b82-5f2e-45b1-8a60-794bcfdcd971/immobilier_drone_modern_1765623242984.png" "./src/assets/immobilier_modern.png"
+mv "/Users/gasparddeboishebert/.gemini/antigravity/brain/32a65b82-5f2e-45b1-8a60-794bcfdcd971/hero_mariage_1765624201694.png" "./src/assets/hero_mariage.png"
+mv "/Users/gasparddeboishebert/.gemini/antigravity/brain/32a65b82-5f2e-45b1-8a60-794bcfdcd971/hero_evenementiel_1765624219083.png" "./src/assets/hero_evenementiel.png"
+mv "/Users/gasparddeboishebert/.gemini/antigravity/brain/32a65b82-5f2e-45b1-8a60-794bcfdcd971/hero_home_wedding_2cv_1765626128435.png" "./src/assets/hero_home.png"

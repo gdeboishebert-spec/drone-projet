@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demander un Devis - Drone Events</title>
+    <meta name="description"
+        content="Obtenez un devis gratuit et personnalisé pour votre projet de vidéo aérienne par drone.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+    <div id="app">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="logo">DRONE EVENTS</div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html#services">Prestations</a></li>
+                <li><a href="index.html#portfolio">Portfolio</a></li>
+                <li><a href="devis.html" class="btn-primary">Devis Gratuit</a></li>
+            </ul>
+        </nav>
+
+        <!-- Hero Section (Minimal) -->
+        <header class="hero"
+            style="min-height: 50vh; background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('./src/assets/hero_home.png'); background-position: center;">
+            <div class="hero-content">
+                <h1>Parlez-nous de votre projet</h1>
+                <p>Recevez une estimation personnalisée sous 48h</p>
+            </div>
+        </header>
+
+        <!-- Form Section -->
+        <section class="section">
+            <div class="container">
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <form class="contact-form" action="https://formspree.io/f/xblnwzbz" method="POST">
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                            <input type="text" name="nom" placeholder="Nom" required>
+                            <input type="text" name="prenom" placeholder="Prénom" required>
+                        </div>
+
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                            <input type="email" name="email" placeholder="Email" required>
+                            <input type="tel" name="telephone" placeholder="Téléphone" required>
+                        </div>
+
+                        <select name="prestation"
+                            style="padding: 1.2rem; border: 1px solid #e0e0e0; background: var(--color-gray-light); font-family: inherit; color: var(--color-text);">
+                            <option value="" disabled selected>Type de prestation</option>
+                            <option value="mariage">Mariage</option>
+                            <option value="immobilier">Immobilier</option>
+                            <option value="evenementiel">Événementiel / Corporate</option>
+                            <option value="autre">Autre projet</option>
+                        </select>
+
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                            <input type="date" name="date" placeholder="Date souhaitée">
+                            <input type="text" name="lieu" placeholder="Lieu (Ville, Code Postal)">
+                        </div>
+
+                        <textarea name="description" placeholder="Décrivez votre projet en quelques lignes..." rows="6"
+                            required></textarea>
+
+                        <button type="submit" class="btn-primary" style="width: 100%;">Envoyer la demande</button>
+                    </form>
+                    <p style="text-align: center; margin-top: 2rem; font-size: 0.9rem; color: #888;">Vos informations
+                        sont confidentielles et ne seront utilisées que pour traiter votre demande.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Drone Events. Tous droits réservés.</p>
+        </footer>
+    </div>
+    <script defer src="./src/main.js"></script>
+</body>
+
+</html>

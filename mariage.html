@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mariages - Drone Events</title>
+    <meta name="description"
+        content="Vidéos et photos aériennes de mariage à Dieppe et en Normandie. Capturez vos moments inoubliables vu du ciel.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+    <div id="app">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="logo">DRONE EVENTS</div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html#services">Prestations</a></li>
+                <li><a href="index.html#portfolio">Portfolio</a></li>
+                <li><a href="devis.html" class="btn-primary">Devis Gratuit</a></li>
+            </ul>
+        </nav>
+
+        <!-- Hero Section -->
+        <header class="hero"
+            style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./src/assets/hero_mariage.png');">
+            <div class="hero-content">
+                <h1>Mariages</h1>
+                <p>Immortalisez le plus beau jour de votre vie</p>
+            </div>
+        </header>
+
+        <!-- Description Section -->
+        <section class="section section-alt">
+            <div class="container">
+                <div style="text-align: center; max-width: 800px; margin: 0 auto;">
+                    <h2>Une Perspective Unique</h2>
+                    <p>Le drone apporte une dimension cinématographique à votre film de mariage. Nous capturons
+                        l'arrivée des mariés, le lieu de réception, le cocktail et les photos de couple avec un angle
+                        inédit et majestueux.</p>
+                    <br>
+                    <p>Nous travaillons en collaboration discrète avec votre photographe et vidéaste au sol pour ne rien
+                        manquer de cette journée exceptionnelle.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="section">
+            <div class="container">
+                <h2 style="text-align: center; display: block;">Galerie Mariages</h2>
+                <div class="gallery-grid">
+                    <!-- Placeholders for wedding specific images -->
+                    <div class="gallery-item" style="background-image: url('./src/assets/portfolio1.png')"></div>
+                    <div class="gallery-item" style="background-image: url('./src/assets/portfolio2.png')"></div>
+                    <div class="gallery-item" style="background-image: url('./src/assets/hero.png')"></div>
+                    <div class="gallery-item" style="background-image: url('./src/assets/mariage_cliff.png')"></div>
+                    <div class="gallery-item" style="background-image: url('./src/assets/mariage_chateau.png')"></div>
+                    <div class="gallery-item" style="background-image: url('./src/assets/mariage_beach.png')"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact CTA -->
+        <section class="section section-alt" style="text-align: center;">
+            <div class="container">
+                <h2>Prêt à réserver ?</h2>
+                <p style="margin-bottom: 2rem;">Vérifiez notre disponibilité pour votre date.</p>
+                <a href="index.html#contact" class="btn-primary">Nous Contacter</a>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Drone Events. Tous droits réservés.</p>
+        </footer>
+    </div>
+    <script defer src="./src/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Événementiel - Drone Events</title>
+    <meta name="description"
+        content="Couverture vidéo aérienne de vos événements sportifs, culturels ou d'entreprise à Dieppe. Dynamisez votre communication.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+    <div id="app">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="logo">DRONE EVENTS</div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html#services">Prestations</a></li>
+                <li><a href="index.html#portfolio">Portfolio</a></li>
+                <li><a href="devis.html" class="btn-primary">Devis Gratuit</a></li>
+            </ul>
+        </nav>
+
+        <!-- Hero Section -->
+        <header class="hero"
+            style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./src/assets/hero_evenementiel.png');">
+            <div class="hero-content">
+                <h1>Événementiel</h1>
+                <p>Dynamisez vos événements avec des images aériennes</p>
+            </div>
+        </header>
+
+        <!-- Description Section -->
+        <section class="section section-alt">
+            <div class="container">
+                <div style="text-align: center; max-width: 800px; margin: 0 auto;">
+                    <h2>Couverture Vos Événements</h2>
+                    <p>Festivals, concerts, compétitions sportives, inaugurations ou événements d'entreprise : offrez
+                        une vue d'ensemble spectaculaire à votre audience. Les images de drone captent l'ampleur de
+                        votre événement et l'énergie du public.</p>
+                    <br>
+                    <p>Nous réalisons des teasers vidéo percutants pour vos réseaux sociaux et supports de
+                        communication.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="section">
+            <div class="container">
+                <h2 style="text-align: center; display: block;">Galerie Événementiel</h2>
+                <div class="gallery-grid">
+                    <!-- Event specific images -->
+                    <div class="gallery-item" style="background-image: url('./src/assets/evenementiel_upload_1.png')"></div>
+                    <div class="gallery-item" style="background-image: url('./src/assets/evenementiel_upload_2.png')"></div>
+                    <div class="gallery-item" style="background-image: url('./src/assets/evenementiel_festival_drone.png')"></div>
+                    <div class="gallery-item" style="background-image: url('./src/assets/evenementiel_garden_party_evening.png')"></div>
+                    <div class="gallery-item" style="background-image: url('./src/assets/evenementiel_sports_event.png')"></div>
+                    <div class="gallery-item" style="background-image: url('./src/assets/evenementiel_concert_nature.png')"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact CTA -->
+        <section class="section section-alt" style="text-align: center;">
+            <div class="container">
+                <h2>Un projet en tête ?</h2>
+                <p style="margin-bottom: 2rem;">Discutons de vos besoins spécifiques.</p>
+                <a href="index.html#contact" class="btn-primary">Demander un Devis</a>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Drone Events. Tous droits réservés.</p>
+        </footer>
+    </div>
+    <script defer src="./src/main.js"></script>
+</body>
+
+</html>

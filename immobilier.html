@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Immobilier - Drone Events</title>
+    <meta name="description"
+        content="Valorisation de biens immobiliers par drone. Photos et vidéos pour agences, constructeurs et particuliers. Vendez plus vite avec des vues aériennes.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+    <div id="app">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="logo">DRONE EVENTS</div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html#services">Prestations</a></li>
+                <li><a href="index.html#portfolio">Portfolio</a></li>
+                <li><a href="devis.html" class="btn-primary">Devis Gratuit</a></li>
+            </ul>
+        </nav>
+
+        <!-- Hero Section -->
+        <header class="hero"
+            style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./src/assets/hero_immobilier_ai.png');">
+            <div class="hero-content">
+                <h1>Immobilier</h1>
+                <p>Valorisez vos biens et projets</p>
+            </div>
+        </header>
+
+        <!-- Description Section -->
+        <section class="section section-alt">
+            <div class="container">
+                <div style="text-align: center; max-width: 800px; margin: 0 auto;">
+                    <h2>Vente et Promotion Immobilière</h2>
+                    <p>Dans un marché concurrentiel, rien ne vaut une photo aérienne pour mettre en valeur un bien
+                        d'exception, un grand terrain ou un environnement privilégié. Le drone permet de situer le bien
+                        dans son contexte.</p>
+                    <br>
+                    <p>Pour les architectes et professionnels du BTP, nous assurons également le suivi de chantier et
+                        l'inspection de toitures ou façades difficiles d'accès.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="section">
+            <div class="container">
+                <h2 style="text-align: center; display: block;">Galerie Immobilier</h2>
+                <div class="gallery-grid">
+                    <!-- Placeholders for real estate specific images -->
+                    <div class="gallery-item" style="background-image: url('./src/assets/immobilier_cliffs.jpg')"></div>
+                    <div class="gallery-item" style="background-image: url('./src/assets/immobilier_church_sea.jpg')">
+                    </div>
+                    <div class="gallery-item"
+                        style="background-image: url('./src/assets/immobilier_top_right_new.jpg')"></div>
+                    <div class="gallery-item" style="background-image: url('./src/assets/immobilier_new_1.jpg')"></div>
+                    <div class="gallery-item" style="background-image: url('./src/assets/immobilier_house.png')"></div>
+                    <div class="gallery-item" style="background-image: url('./src/assets/immobilier_manor.png')"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact CTA -->
+        <section class="section section-alt" style="text-align: center;">
+            <div class="container">
+                <h2>Besoin de visuels ?</h2>
+                <p style="margin-bottom: 2rem;">Contactez-nous pour forfaitiser nos interventions.</p>
+                <a href="index.html#contact" class="btn-primary">Nous Contacter</a>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Drone Events. Tous droits réservés.</p>
+        </footer>
+    </div>
+    <script defer src="./src/main.js"></script>
+</body>
+
+</html>
